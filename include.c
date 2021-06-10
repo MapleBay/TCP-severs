@@ -24,17 +24,17 @@
  *            佛祖保佑       永不宕机     永无BUG
  * 
  * @Author: Bei gen feng
- * @Date: 2021-06-10 10:06:08
- * @LastEditTime: 2021-06-10 10:06:08
+ * @Date: 2021-06-10 11:20:16
+ * @LastEditTime: 2021-06-10 11:20:16
  * @LastEditors: Bei gen feng
  * @Description: 
- * @FilePath: /TCP/main.c
+ * @FilePath: /TCP/include.c
  * 
  */
 
 #include <stdio.h>
 #include <string.h>
-
-void mian()
-{
-}
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
